@@ -1,0 +1,12 @@
+﻿<Window x:Class="HVA_TrayApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HVA_TrayApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Visibility="Hidden" Closed="MainWindow_Closed" Closing="Window_Closing" StateChanged="Window_StateChanged"  >
+    <Grid Margin="0,0,2,3">
+        <TextBox x:Name="TextBox1" x:FieldModifier="public" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Technique OL BRK" IsReadOnly="True" />
+    </Grid>
+</Window>
